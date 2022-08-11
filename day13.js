@@ -12,7 +12,7 @@ var container = createTag("div","container");
 var row = createTag("div","row");
 
 // Fetching the Rest API data
-fetch("https://restcountries.eu/rest/v2/all")
+fetch("https://restcountries.com/v2/all")
 .then((response1) =>{
     return response1.json();
 })
